@@ -1,0 +1,540 @@
+  
+  /* font-family: 'Commissioner', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif; */
+  *{
+    margin: 0;
+  }
+
+  body{
+    box-sizing: border-box;
+    font-family: 'Commissioner', sans-serif;
+    background-color: #ddd;
+  }
+
+ .header{
+    height: 200px;
+    width: 100%;
+    background-image: url(images/image-hero-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.logo-div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    z-index: 2;
+    position: relative;
+}
+  .burger{
+    width: 30px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .close-nav{
+    width: 30px;
+    color: #fff;
+    position: absolute;
+    right: 0%;
+    cursor: pointer;
+  }
+
+  nav{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    height: 0;
+    overflow-y: hidden;
+    transition: all 1s;
+    z-index: 2;
+    position: relative;
+  }
+
+  nav ul{
+    width: 100%;
+    height: 150px;
+    display: block;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 0;
+  }
+
+  nav ul li{
+    list-style: none;
+    margin-top: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    padding-left: 20px;
+  }
+
+  .get-started{
+    padding-bottom: 3px solid red;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+  }
+  nav ul li a:hover{
+    color: #ddd;
+  }
+
+  /* main */
+
+  .main-logo{
+    display: block;
+    margin: auto;
+  }
+
+/* first card */
+  .card{
+    width: 80%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    height: 280px;
+    border-radius: 10px;
+    margin-top: -20px;
+  }
+
+  .card article{
+    padding-top: 50px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .card article p{
+    padding-top: 15px;
+  }
+
+  .btn-bookmark-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-top: 20px;
+ 
+  }
+
+
+  .back-project-btn{
+    width: 60%;
+    padding: 10px;
+    background-color: hsl(176, 50%, 47%);
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .back-project-btn:hover{
+    background-color: hsl(176, 72%, 28%);
+  }
+
+  /* second card */
+
+  .card-stats{
+    width: 80%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    height: 380px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 30px;
+  }
+
+  .card-stats p{
+    padding-top: 5px;
+  }
+
+  .card-stats div{
+    margin-top: 20px;
+  }
+
+  .card-stats hr{
+    margin: auto;
+    width: 30%;
+    margin-top: 20px;
+  }
+
+  .countdown{
+    width: 70%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 48%);
+    margin: auto;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .countdown div{
+    width: 80%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: hsl(176, 50%, 47%)
+    
+  }
+
+  /* about project */
+  .about{
+    width: 80%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 30px;
+  }
+
+  .about article{
+    width: 90%;
+    margin: auto;
+  }
+
+  .about p{
+    padding-top: 30px;
+    color: hsl(0, 0%, 48%);
+    line-height: 1.5;
+    text-align: left;
+    font-size: 14px;
+  }
+
+/* pledge section */
+.pledge .article-div{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.pledge .article-div article{
+    margin-top: 40px;
+}
+
+.pledge article h3{
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.pledge article p{
+    padding-bottom: 20px;
+}
+
+.pledge article h1{
+    font-size: 40px;
+}
+
+.span{
+    color: hsl(176, 72%, 28%);
+}
+
+.select-reward-div{
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+.left{
+    font-weight: 100;
+    color: #ddd;
+    font-size: 16px;
+}
+
+.select-reward-btn{
+    width: 60%;
+    background-color: hsl(176, 50%, 47%);
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    height: 50px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+
+.select-reward-btn:hover{
+  background-color:  hsl(176, 72%, 28%);
+}
+
+.select-reward-btn h3{
+    margin-top: -19px;
+}
+
+.out-of-stock-btn{
+    width: 60%;
+    background-color: #ddd;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.out-of-stock-btn h3{
+    margin-top: -19px;
+}
+
+/* modal section */
+.modal-wrapper{
+    position: absolute;
+    top: 100px;
+    left: 10%;
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    z-index: 2;
+    padding-bottom: 50px;
+}
+
+.modal-wrapper p{
+    color: hsl(0, 0%, 48%);
+    font-size: 14px; 
+    line-height: 1.5;
+}
+
+.modal-content{
+    width: 90%;
+    margin: auto;
+}
+
+.close-modal{
+    color: #ddd;
+    width: 20px;
+    cursor: pointer;
+}
+
+.modal-head{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.modal-head h1{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.modal-article{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: left;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.modal-article h2{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.modal-article p{
+    padding-bottom: 30px;
+}
+.article-wrapper{
+    width: 90%;
+    margin: auto;
+}
+
+.article-wrapper h3{
+    padding-bottom: 20px;
+}
+
+.content-head{
+    display: flex;
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.circle2{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ddd;
+    background-color: hsl(176, 50%, 47%);
+    border-radius: 100%;
+    margin: auto;
+}
+
+.modal-span{
+    color: hsl(176, 50%, 47%);
+}
+
+.time-span{
+    font-size: 14px;
+    font-weight: 300;
+    color: #ddd;
+}
+
+hr{
+    color: #ddd;
+    background-color: #ddd;
+}
+
+/* pledge section */
+.pledge-div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pledge-text{
+    text-align: center;
+    height: 40px;
+}
+
+.plegde-btn-div{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.form{
+    width: 100px;
+}
+
+.form input{
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    height: 40px;
+    margin-right: 10px;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.pledge-btn{
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    height: 45px;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: hsl(176, 50%, 47%);
+    cursor: pointer;
+}
+
+.pledge-btn:hover{
+    background-color: hsl(176, 72%, 28%);
+}
+
+.pledge-btn h3{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* thanks section */
+.thanks{
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    right: 10%;
+    z-index: 2;
+}
+
+.thanks-article{
+    width: 80%;
+    margin: auto;
+}
+
+.thanks h3{
+font-size: 15px;
+}
+
+.thanks p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.check{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.got-it-btn{
+    border: 1px solid ;
+    border-radius: 30px;
+    height: 45px;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: hsl(176, 50%, 47%);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.got-it-btn:hover{
+    background-color: hsl(176, 72%, 28%);
+}
+
+/* warning msg */
+.warning25, .warning75{
+  display: block;
+  padding-bottom: 10px;
+  text-align: center;
+}
+/* active states */
+.active{
+    border: 1px solid hsl(176, 50%, 47%);
+}
+
+/* overlay */
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .6);
+    filter: blur(3px);
+    z-index: 1; 
+}
+
+
+
+
+
+
+
+
+
+  /* hidden elements */
+  .hidden{
+    display: none;
+  }
